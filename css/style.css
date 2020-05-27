@@ -1,0 +1,89 @@
+.lenses-more{
+	width: 100%;
+}
+
+
+.lenses-more-landscapes{
+	display: flex;
+	justify-content: center;
+}
+
+
+.lenses-more-photo-2{
+	margin-left: 200px;
+}
+
+
+.lenses-more-photo{
+	width: 300px;
+	height: 300px;
+}
+
+
+.lenses-more-photo-downtext{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+
+.lenses-more-photo-downtext-2{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+
+.title1-p{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 350;
+	font-size: 43px;
+}
+
+
+.lenses-more-portraits_1_2, .lenses-more-portraits_2_2{
+	display: flex;
+	justify-content: center;
+}
+
+
+.lenses-more-portraits_2_2{
+	margin-top: 65px;
+}
+
+
+.lenses-more-sport_1_2, .lenses-more-sport_2_2{
+	display: flex;
+	justify-content: center;
+}
+
+
+.lenses-more-macro{
+	display: flex;
+	justify-content: center;
+}
+
+
+.first-title-p{
+
+}
+
+
+.cost-icon{
+	height: 12px;
+}
+
+
+@media (min-width: 1px) and (max-width: 769px) {
+	.lenses-more-landscapes, .lenses-more-portraits_1_2, .lenses-more-portraits_2_2, .lenses-more-sport_1_2, .lenses-more-sport_2_2, .lenses-more-macro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.lenses-more-photo-2, .lenses-more-photo-1{
+	margin-left: 0px;
+	margin-top: 25px;
+}
+}
